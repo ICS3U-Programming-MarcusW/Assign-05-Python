@@ -5,6 +5,7 @@
 # This program also calculates the surface area and volume of a square pyramid
 
 
+import os
 import math
 
 # Function to calculate the surface area of a cone
@@ -56,6 +57,8 @@ def main():
     play_again_counter.append(0)
     # Use a loop to ask the user if they want to keep playing
     while True:
+        # Clear the terminal
+        os.system("clear")
         # Explain to the user what the program does
         print(
             "This program displays the volume and surface area of cones and square pyramids."
