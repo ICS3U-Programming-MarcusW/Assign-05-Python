@@ -176,7 +176,7 @@ def main():
             # Break out of the loop
             break
 
-    # Finally statement to thank the user for playing
+    # Use a finally statement to thank the user for playing
     print("Thank you for playing!")
 
 
